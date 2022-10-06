@@ -6,8 +6,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// https://stackoverflow.com/questions/60705649/how-to-reverse-a-16-bit-hex-value-in-c
-#define Reverse(X) ((X << 24) | (((X>>16)<<24)>>16) | (((X<<16)>>24)<<16) | (X>>24))
 
 // john from https://stackoverflow.com/questions/61645259/conversion-from-argb-to-rgba
 uint32_t ToRGB(uint32_t argb)
